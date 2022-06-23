@@ -33,7 +33,7 @@ $(document).ready(function() {
 
     function loadFrame($dep_idx) {
         //		$(".lay-frame").load("/sub/port_" + $dep_idx + ".html", function(){
-        $(".lay-frame").load("../sub/port_view_1.html");
+        $(".lay-frame").load("./sub/port_view_" + $dep_idx + ".html");
     }
     $(".lay-mask").on("click", function() {
         $(this).hide();
