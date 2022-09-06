@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 /* ========== PC ========== */
-#visual > div > div{color:#fff; font-weight:200; position:relative; margin:0 auto; box-sizing:border-box;}
+@media all and (min-width:2160px){
+	#visual > div > div{color:#fff; font-weight:200; position:relative; margin:0 auto; box-sizing:border-box;}
 	#visual .visual_logo{top:300px;}
 	#visual .visual_txt1 {top:330px; font-size:40px; line-height:40px; }
 	#visual .visual_txt2 {top:360px; font-size:28px; line-height:28px; letter-spacing:2px;}
@@ -63,6 +64,7 @@
 	#lay-wrap .lay-close {position:absolute; right:20px; top:20px; z-index:999999;}
 	#lay-wrap .lay-close img{width:80%;}
 	.lay-mask {position:absolute; left:0; top:0; z-index:9999; width:100%; height:100%; opacity:0.8; background-color:#222; display:none;}
+} 
 /* ========== TABLET(가로) ========== */
 @media all and (max-width:1024px){
 	#visual > div > div{color:#fff; font-weight:200; position:relative; margin:0 auto; box-sizing:border-box;}
