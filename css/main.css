@@ -36,7 +36,7 @@
 	#filters a.current{color:#f18430;}
 
 	.artist-list{position:relative; width:100%; margin:0 auto;}
-	.artist-list .element-item {width:20%; box-sizing:border-box; }
+	.artist-list .element-item {width:calc(100% / 5); box-sizing:border-box; }
 	.artist-list .element-item .por{display:block; overflow:hidden; text-align:center;}
 	.artist-list .element-item .por img{width:100%; }
 	.artist-list .element-item .por .over-lay {display:none; position:absolute; left:0; top:0; width:100%; height:100%; background-color:#222; opacity:0.7; z-index:5;}
@@ -101,7 +101,7 @@
 	#filters a.current{color:#f18430;}
 
 	.artist-list{width:100%; margin:0 auto;}
-	.artist-list .element-item {width:25%; box-sizing:border-box; }
+	.artist-list .element-item {width:calc(100% / 4); box-sizing:border-box; }
 	.artist-list .element-item .por{display:block; overflow:hidden; text-align:center;}
 	.artist-list .element-item .por img{width:100%; }
 	.artist-list .element-item .por .over-lay {display:none; position:absolute; left:0; top:0; width:100%; height:100%; background-color:#222; opacity:0.7; z-index:5;}
@@ -164,7 +164,7 @@
 	#filters a.current{color:#f18430;}
 
 	.artist-list{width:94%; margin:0 auto;}
-	.artist-list .element-item {width:50%; box-sizing:border-box; }
+	.artist-list .element-item {width:calc(100% / 2); box-sizing:border-box; }
 	.artist-list .element-item .por{display:block; overflow:hidden; text-align:center;}
 	.artist-list .element-item .por img{width:100%; }
 	.artist-list .element-item .por .over-lay {display:none; position:absolute; left:0; top:0; width:100%; height:100%; background-color:#222; opacity:0.7; z-index:5;}
